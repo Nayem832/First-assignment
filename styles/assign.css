@@ -22,30 +22,36 @@ body {
     display: inline-block;
     cursor: pointer;
 }
-
-
 .header {
     background-image: url('../image/Hero-bg.png');
-    background-size: cover;
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #F8F9FA;
+    background-color: #F8F9FA; 
+    background-size: 50%; 
+    background-repeat: repeat; 
+    background-position: top center; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 158px; 
+    padding-top: 50px; 
+    padding-bottom: 100px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
 }
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1140px; /* নিচের সেকশনের সমান করা হলো */
+    max-width: 1140px;
     width: 100%;
-    margin: 30px auto 0 auto; /* স্ক্রিনের মাঝখানে আনা হলো */
-    padding: 0 20px; /* ছোট স্ক্রিনের জন্য দুপাশে ফাঁকা জায়গা */
+    margin: 30px auto 0 auto;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
 .nav-title {
-    font-weight: 800; /* 'px' সরিয়ে দেওয়া হলো */
+    font-weight: 800;
     font-size: 34px;
     color: #4E47FF;
     margin: 0;
@@ -74,7 +80,7 @@ nav ul li {
     flex-direction: column;
     align-items: center;
     gap: 37px;
-    max-width: 1140px; /* সাইজ ঠিক করা হলো */
+    max-width: 1140px;
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
@@ -312,12 +318,12 @@ nav ul li {
 }
 
 .contact-heading {
-    max-width: 528px;
+    max-width: 550px;
 }
 
 .contact-heading h2 {
     font-size: 97px;
-    line-height: 1.2;
+    line-height: 1.1;
     color: #000;
     margin: 0;
 }
@@ -360,7 +366,6 @@ nav ul li {
     padding: 20px;
     margin-top: 10px;
 }
-
 
 .footer-section {
     width: 100%;
